@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+}
+h1{ 
+	font-size: 2em;
+	color: wheat;
+}
+
+.logoUno{
+	display: flex;
+	justify-content: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto&display=swap');
+
+.mi__botonera {
+	color: white;
+	font-family: roboto;
+	font-size: 30px;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: nowrap;
+
+}
+li{
+	text-decoration: none;
+}
+
+li a:hover{
+	color: yellowgreen;
+	padding-left: 30px;
+	font-size: 30px;
+	letter-spacing: 5px;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.losAutos{
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px 10px 10px;
+	border-color: white;
+	border: solid;
+}
+#contenedor{
+	display:flex;
+	justify-content: center;
+}
+
+h2{
+	margin:10px;
+	padding:25px;
+	font-size: 35px;
+	font-family: roboto;
+	background-color: orange;
+	color: white;
+	display: flex;
+	justify-content: center;
+	transition-delay: unset;
+}
+
+h3{
+	margin-top: 10px;
+	padding-top: 5px;
+	background-color: olive;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-family: roboto;
+	text-decoration: unset;
+	text-align: center;
+	border-color: white;
+}
+
+
+.card{
+	margin: 35px;
+}
+.contenedorCards{
+	display: flex;
+}
+
+footer{
+	background-color: gray;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.elFoter{
+	padding: 15px;
+	margin: 10px;
+	font-size: 25px;
+	font-family: sans-serif;
+	text-decoration: blink;
+}
+
+.wasp{
+	height: 50px;
+	height: 50px;
+	display: flex;
+	align-content: flex-end;
+	padding-left: 600px;
+
+}
